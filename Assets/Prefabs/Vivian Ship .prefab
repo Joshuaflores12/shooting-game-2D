@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8824921291936692218}
   m_Layer: 0
   m_Name: 'Vivian Ship '
-  m_TagString: Enemy Projectile
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126,5 +126,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 69997020561303995, guid: 8aaf15e1530fc6a4c9d98a97edee9d57, type: 3}
   spawnTimer: 0
-  spawnmax: 10
-  spawnmin: 5
+  spawnmax: 3
+  spawnmin: 4

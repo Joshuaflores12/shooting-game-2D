@@ -18,7 +18,7 @@ public class projectilespawner : MonoBehaviour
     void Update()
     {
         {
-            spawnTimer = Time.deltaTime;
+            spawnTimer -= Time.deltaTime;
             if(spawnTimer <= 0)
             {
                 spawnTimer = Random.Range(spawnmin, spawnmax);
