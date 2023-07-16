@@ -126,5 +126,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyProjectile: {fileID: 69997020561303995, guid: 8aaf15e1530fc6a4c9d98a97edee9d57, type: 3}
   spawnTimer: 0
-  spawnmax: 3
-  spawnmin: 4
+  spawnmax: 1
+  spawnmin: 2
