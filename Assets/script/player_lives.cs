@@ -37,6 +37,7 @@ public class player_lives : MonoBehaviour
         if (EnemiesCount <=0)
         {
             SceneManager.LoadScene("WinScreen");
+            
         }
     }
 
@@ -64,6 +65,7 @@ public class player_lives : MonoBehaviour
             if (lives <= 0)
             {
                 Destroy(gameObject);
+                SceneManager.LoadScene("LoseScreen");
             }
         }
     
@@ -87,6 +89,7 @@ public class player_lives : MonoBehaviour
             if (lives <= 0)
             {
                 Destroy(gameObject);
+                SceneManager.LoadScene("LoseScreen");
             }
         }
     }
