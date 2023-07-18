@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class projectile : MonoBehaviour
 {
     public float moveSpeed;
@@ -27,6 +28,7 @@ public class projectile : MonoBehaviour
             Destroy(collision.gameObject);
             Destroy(gameObject);
             pointManager.Updatescore(30);
+            player_lives.Instance.EnemiesCount--;
             
         }
         if(collision.gameObject.tag == "Boundary") 
